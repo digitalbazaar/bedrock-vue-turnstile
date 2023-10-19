@@ -1,0 +1,44 @@
+{
+  "name": "@bedrock/vue-turnstile",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Vue.js Cloudflare Turnstile component for Bedrock Web apps",
+  "module": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-vue-turnstile"
+  },
+  "keywords": [
+    "bedrock"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-vue-turnstile/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-vue-turnstile",
+  "files": [
+    "lib/*",
+    "components/*"
+  ],
+  "dependencies": {
+    "vue-turnstile": "^1.0.4"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-digitalbazaar": "^5.0.1",
+    "eslint-plugin-jsdoc": "^46.8.2",
+    "eslint-plugin-vue": "^9.17.0",
+    "jsdoc": "^4.0.2",
+    "jsdoc-to-markdown": "^8.0.0"
+  }
+}
