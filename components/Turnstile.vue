@@ -1,5 +1,5 @@
 <template>
-  <vue-turnstile
+  <VueTurnstile
     v-model="token"
     :reset-interval="resetInterval"
     :size="size"
@@ -15,10 +15,11 @@
   */
 import {config} from '@bedrock/web';
 import {defineEmits, ref, watch} from 'vue';
+import VueTurnstile from 'vue-turnstile';
 
 export default {
   name: 'Turnstile',
-
+  components: {VueTurnstile},
   props: {
     modelValue: {
       type: String,
