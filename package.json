@@ -5,7 +5,7 @@
   "description": "Vue.js Cloudflare Turnstile component for Bedrock Web apps",
   "module": "./lib/index.js",
   "scripts": {
-    "lint": "eslint \"**/*.{js,vue}\""
+    "lint": "eslint --ext .cjs,.js,.vue . "
   },
   "repository": {
     "type": "git",
