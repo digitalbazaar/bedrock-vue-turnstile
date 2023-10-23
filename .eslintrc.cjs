@@ -7,6 +7,6 @@ module.exports = {
   extends: [
     'digitalbazaar',
     'digitalbazaar/jsdoc',
-    'digitalbazaar/vue'
+    'digitalbazaar/vue3'
   ]
 };
